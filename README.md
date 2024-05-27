@@ -1,6 +1,19 @@
 # Token Counter
 Token Counter is a python script written by Copyleaks, to forecast credits usage for source code scans On the Copyleaks platform.
 
+## Help
+```bash
+python3 main.py -h
+
+output:
+usage: main.py [-h] --directory DIRECTORY
+
+options:
+  -h, --help            show this help message and exit
+  --directory DIRECTORY, -d DIRECTORY
+                        Directory to scan for source code files
+```
+
 ## Usage
 ```bash
 python3 main.py -d /path/to/dir/containing/source/code/files

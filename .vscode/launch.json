@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args":["-d", "/mnt/c/tmp/PlagiarizedCode"],
+            "args":["-h"],
         }
     ]
 }
