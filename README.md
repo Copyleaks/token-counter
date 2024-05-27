@@ -1,2 +1,4 @@
 # token-counter
-Simple script to forecast credits usage for source code scans on Copyleaks
+Token Counter is a python script written by Copyleaks, to forecast credits usage for source code scans On the Copyleaks platform.
+
+
