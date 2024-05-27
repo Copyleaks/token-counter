@@ -1,3 +1,4 @@
+import math
 import os
 from lexer_resolver import LexerResolver
 from token_counter import TokenCounter
@@ -40,7 +41,7 @@ def count_tokens(supported_files):
         results = list(executor.map(process_file, supported_files)) # Use tqdm to display a progress bar
 
     total_token_count = sum(results)
-    average_token_count = total_token_count / len(supported_files)
+    average_token_count = math.ceil(total_token_count / len(supported_files))
 
     return total_token_count, average_token_count
                 
