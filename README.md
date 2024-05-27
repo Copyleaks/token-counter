@@ -16,12 +16,12 @@ options:
 
 ## Usage
 ```bash
-python3 main.py -d /path/to/dir/containing/source/code/files
+python3 main.py -d CODE_DIRECTORY
 ```
 
 ## Example
 ```bash
-python3 main.py -d /path/to/dir/containing/source/code/files
+python3 main.py -d CODE_DIRECTORY
 ```
 
 <b>output</b>:
