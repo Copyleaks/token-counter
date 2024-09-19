@@ -93,6 +93,6 @@ if __name__ == "__main__":
             print (f'*{extension}:')
             print(f'\tFiles: {"{:,}".format(len(files_by_types[extension]))}')
             token_count, average_token_count = count_tokens(files_by_types[extension])
-            print(f'\tTokens: {"{:,}".format(token_count)}')
+            print(f'\tEstimated token count: {"{:,}".format(token_count)}')
             print(f'\tAverage Token count: {"{:,}".format(average_token_count)}')
             print()
