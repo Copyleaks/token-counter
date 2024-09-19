@@ -1,4 +1,4 @@
-from pygments.token import Whitespace, Token, Comment, String
+from pygments.token import Whitespace, Token
 
 class TokenCounter:
     def __init__(self) -> None:
