@@ -4,4 +4,4 @@ idna==3.7
 Pygments==2.15.1
 requests==2.32.2
 tqdm==4.66.1
-urllib3==2.2.1
+urllib3==2.7.0
